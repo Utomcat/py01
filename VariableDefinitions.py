@@ -1,0 +1,1 @@
+def function1():    return False, 3# 该格式赋值函数调用的返回值时,需根据返回值个数进行定义变量success, img = function1()print(success, img)
