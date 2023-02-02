@@ -9,9 +9,9 @@ Description:  python 条件结构<br/>
 a = 7
 while a < 8:
     if a % 2 == 0:
-        print(a,"is even")
+        print(a, "is even")
     else:
-        print(a,"is odd")
+        print(a, "is odd")
     a += 1
 
 # if 的基本用法
@@ -44,7 +44,6 @@ else:
     print('roadman')
 
 # if语句多个条件
-
 num = 9
 # 判断值是否在0~10之间
 if 0 <= num <= 10:
@@ -58,7 +57,6 @@ if num < 0 or num > 10:
 else:
     # 输出结果: undefined
     print('undefined')
-
 
 num = 8
 # 判断值是否在0~5或者10~15之间
