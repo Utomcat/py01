@@ -65,3 +65,20 @@ if (0 <= num <= 5) or (10 <= num <= 15):
 else:
     # 输出结果: undefined
     print('undefined')
+
+
+# match...case... 条件判断结构
+def http_error(status):
+    match status:
+        case 400:
+            print("Bad request")
+        case 404:
+            print("Not found")
+        case 418:
+            print("I'm a teapot")
+        case _:
+            print("Something's wrong with the internet")
+
+
+my_status = 400
+http_error(400)
